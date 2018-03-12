@@ -78,3 +78,7 @@ https://nathanhoad.net/how-to-cherry-pick-changes-with-git
 http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html
 
 https://www.codementor.io/git/tutorial/git-github-tutorial-for-beginners
+
+git push origin y20
+
+git cherry-pick command testing

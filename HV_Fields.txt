@@ -1,0 +1,81 @@
+First Name
+Last Name
+Email
+Phone
+Fax
+Address1
+Address2
+City	
+State	
+Zip Code
+Longitude	
+Lattitude
+Specialty Name   - Drop Down List
+
+
+Dermatologist,Dermatologic Surgeon
+Chiropractor
+General Dentist
+Periodontist
+Gastroenterologist
+Internal Medicine - Primary Care Physician
+Prosthodontist (Cosmetic)
+Allergist and Immunologist
+
+https://adminlte.io/themes/AdminLTE/index2.html
+
+
+
+Program	
+Contact Name	
+Contact Email
+Phone	
+Event Name	
+Description	
+Address 1	
+Address 2	
+City	
+State	
+Zip Code
+Longitude	
+Lattitude	
+Restrictions	
+Schedule	
+Start Date	
+End Date	
+Keywords	
+Questions ID
+
+
+
+
+
+
+
+
+Program
+Program Title/Name
+Description
+Contact Name	
+Contact Email	
+Contact Phone	
+Address 1	
+Address 2	
+City	
+State	
+Zipcode
+Longitude	
+Lattitude	
+Phone	
+Restrictions
+
+
+2. Dev environment set up done to Jagadeesh for HV
+3. Design finalization is started.
+4. Got kt from Vijay about the file structures.
+
+
+
+1. Healthy Village User Portal design work completed.
+
+2. Technical spec documentation kick started for Healthy Village.

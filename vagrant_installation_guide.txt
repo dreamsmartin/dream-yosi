@@ -1,0 +1,80 @@
+Healthy Village Update: 
+1. Sign Up and Login processes are completed.
+2. Started writing test cases.
+ 
+
+
+
+Update About Elastic Load Balancer in AWS issue
+
+For 504 Gateway Timeout error control
+
+1. In ELB, we need to increase the idle timeout to 300 seconds. There is option to set this value through aws management console.
+2. We have increased the maximum execution time from 1 minutes to 5 minutes (recommendated).
+3. KeepAlive should be set to On. In our case, it is enabled. (It reflects in the php info file - https://api.yosicare.com/php/info.php)    
+
+
+yosi-yosicare   - Application
+yosi-ansible   - Configs
+ansible-devansible - Vagrant
+
+
+
+1. Health First - QA discussion.
+
+2. Lokking into AWS ELB issue fixes. 
+
+
+
+https://www.vagrantup.com/downloads.html
+https://www.virtualbox.org/wiki/Downloads
+https://www.cygwin.com/   
+
+bash install
+lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+install apt-cyg /bin
+apt-cyg install binutils
+apt-cyg install curl
+apt-cyg install gmp
+apt-cyg install libgmp-devel
+apt-cyg install make
+apt-cyg install python
+apt-cyg install python-crypto
+apt-cyg install python-openssl
+apt-cyg install python-setuptools
+apt-cyg install git
+apt-cyg install nano
+apt-cyg install openssh
+apt-cyg install openssl
+apt-cyg install openssl-devel
+
+https://everythingshouldbevirtual.com/automation/ansible-using-ansible-on-windows-via-cygwin/
+
+
+From your atrek account download vault_key.txt
+and make sure that whether cloned ansible-devansible from github
+
+and then past the vault_key.txt file into the ansible-devansible folder
+
+download config_vagrant folder from basecamp =>  https://3.basecamp.com/3835170/buckets/4823587/vaults/666452532
+extract files as config_vagrant folder
+and then replaced the old one by this which will be in the location ansible-devansible\roles\deploy\files 
+Then install powershell
+https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6
+vagrant up
+vagrant provision
+after installing powershell run the above commands in the powershell prompt
+that's it
+To verify
+to check whether the yosi site is loading or not execute the url https://vagrant.yosicare.com:8081/yosiweb in the browser
+
+the site will not load means vagrant didn't setup properly at your system
+
+
+
+
+https://nathanhoad.net/how-to-cherry-pick-changes-with-git
+
+http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html
+
+https://www.codementor.io/git/tutorial/git-github-tutorial-for-beginners

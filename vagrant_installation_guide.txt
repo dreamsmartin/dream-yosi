@@ -83,4 +83,10 @@ git push origin y20
 
 git cherry-pick command testing
 
-Stash is working fine.
+
+https://github.com/dreamsmartin/dream-yosi.git
+
+Am trying cherry pick command
+
+Testing git stash command
+

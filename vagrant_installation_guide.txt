@@ -82,3 +82,5 @@ https://www.codementor.io/git/tutorial/git-github-tutorial-for-beginners
 git push origin y20
 
 git cherry-pick command testing
+
+Stash is working fine.
